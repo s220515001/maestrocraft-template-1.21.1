@@ -1,0 +1,157 @@
+{
+  "screen.maestrocraft.soundrender.title": "§a音效渲染器 - 统一短音效版",
+
+  "textfield.maestrocraft.midifilename": "输入MIDI文件名",
+  "textfield.maestrocraft.midiplaceholder": "例如：song.mid",
+
+  "label.maestrocraft.midifile": "MIDI文件 (.mid格式)",
+  "label.maestrocraft.unifiedinfo": "特点：全部短音效，音高减慢延长，多音轨独立处理",
+
+  "button.maestrocraft.testpitch": "测试音高",
+  "button.maestrocraft.playsound": "播放标准版",
+  "button.maestrocraft.playenhanced": "播放增强版",
+  "button.maestrocraft.playunified": "§e播放统一短音效版",
+  "button.maestrocraft.stopsound": "停止播放",
+  "button.maestrocraft.testsounds": "测试音效库",
+  "button.maestrocraft.testshortsounds": "§e测试短音效库",
+  "button.maestrocraft.back": "返回",
+
+  "menu.maestrocraft.import": "导入MIDI",
+  "menu.maestrocraft.rendersound": "渲染音效",
+
+  "message.maestrocraft.enhancedinfo": "增强音效版使用了门、打火石、方块破坏、经验颗粒等多种音效",
+  "message.maestrocraft.unifiedinfo": "统一短音效版：全部使用短音效，音高减慢模拟延长，多音轨独立处理",
+
+  // 状态消息
+  "status.maestrocraft.parsing": "正在解析MIDI文件...",
+  "status.maestrocraft.playing": "正在播放...",
+  "status.maestrocraft.stopped": "已停止播放",
+  "status.maestrocraft.completed": "播放完成！",
+  "status.maestrocraft.error.invalidfile": "请输入有效的.mid文件名",
+  "status.maestrocraft.error.client": "客户端未就绪",
+  "status.maestrocraft.error.parsing": "解析MIDI失败",
+  "status.maestrocraft.error.playing": "播放失败",
+
+  // 测试音阶消息
+  "test.pitch.starting": "§e开始音高测试，请听音阶...",
+  "test.pitch.playing": "§a播放: %s (pitch=%.3f)",
+  "test.pitch.completed": "§a测试音阶播放完成！",
+  "test.sounds.starting": "§e开始测试短音效库...",
+  "test.sounds.playing": "§7%d. %s",
+  "test.sounds.completed": "§a短音效测试完成",
+
+  // 播放完成消息
+  "playback.unified.completed": "§a统一短音效播放完成！",
+  "playback.enhanced.completed": "§a增强音效播放完成！使用了多种音效",
+  "playback.standard.completed": "§a音效播放完成！",
+
+  // 正在播放状态
+  "playback.status.playing": "§e▶ 正在播放中...",
+
+  // 说明文本
+  "description.line1": "§7特点：正确音高计算、短音效统一、多音轨处理",
+  "description.line2": "§7音高校准：C5对应pitch 1.0，长音符适当减慢",
+  "description.line3": "§7统一短音效版：全部使用经验颗粒等短音效",
+
+  // 音效类别显示名称
+  "soundcategory.note_block": "音符盒音效",
+  "soundcategory.doors": "门类音效",
+  "soundcategory.fire_flint": "火/打火石音效",
+  "soundcategory.block_break": "方块破坏音效",
+  "soundcategory.experience_magic": "经验/魔法音效",
+  "soundcategory.animals": "动物音效",
+  "soundcategory.tools_weapons": "工具/武器音效",
+  "soundcategory.ambient": "环境音效",
+  "soundcategory.entities": "实体音效",
+  "soundcategory.redstone_mechanical": "红石/机械音效",
+
+  // 单个音效的简化名称（用于显示）
+  "sound.entity.experience_orb.pickup": "经验颗粒",
+  "sound.entity.experience_orb.touch": "经验颗粒拾取",
+  "sound.block.note_block.harp": "音符盒竖琴",
+  "sound.block.note_block.pling": "音符盒铃声",
+  "sound.block.note_block.bell": "音符盒钟",
+  "sound.item.flintandsteel.use": "打火石",
+  "sound.block.stone.break": "石头破坏",
+  "sound.block.wood.break": "木头破坏",
+  "sound.block.glass.break": "玻璃破碎",
+  "sound.entity.arrow.hit": "箭矢命中",
+  "sound.entity.arrow.shoot": "箭矢射击",
+  "sound.item.shield.block": "盾牌格挡",
+  "sound.block.wooden_door.open": "木门开启",
+  "sound.block.lever.click": "拉杆点击",
+  "sound.block.button.click": "按钮点击",
+  "sound.block.dispenser.dispense": "发射器发射",
+  "sound.block.comparator.click": "比较器点击",
+  "sound.entity.player.attack.weak": "玩家弱攻击",
+  "sound.entity.player.attack.strong": "玩家强攻击",
+  "sound.entity.cow.ambient": "牛叫声",
+  "sound.entity.pig.ambient": "猪叫声",
+  "sound.entity.sheep.ambient": "羊叫声",
+  "sound.block.fire.extinguish": "火焰熄灭",
+  "sound.entity.tnt.primed": "TNT点燃",
+  "sound.block.lava.pop": "岩浆冒泡",
+  "sound.block.anvil.land": "铁砧落地",
+
+  // 提示消息
+  "tip.unified.title": "§6统一短音效版提示",
+  "tip.unified.line1": "• 所有音效都是短促音（类似经验颗粒）",
+  "tip.unified.line2": "• 长音符通过减慢音高+重复播放实现",
+  "tip.unified.line3": "• 每个音轨使用固定音效，确保一致性",
+  "tip.unified.line4": "• 多音轨独立处理，避免干扰",
+
+  "tip.enhanced.title": "§6增强音效版提示",
+  "tip.enhanced.line1": "• 使用多种音效：门、打火石、方块破坏等",
+  "tip.enhanced.line2": "• 根据音符音高和力度智能选择音效",
+  "tip.enhanced.line3": "• 长音符使用循环播放",
+  "tip.enhanced.line4": "• 音效多样性更丰富",
+
+  // 配置选项
+  "config.title": "音效渲染器配置",
+  "config.option.volume": "音量",
+  "config.option.pitchrange": "音高范围限制",
+  "config.option.tracks": "最大同时音轨数",
+  "config.option.sounddelay": "音效延迟补偿",
+
+  // 错误消息
+  "error.midi.notfound": "§c未找到MIDI文件：%s",
+  "error.midi.invalid": "§c无效的MIDI文件",
+  "error.midi.empty": "§cMIDI文件没有音符",
+  "error.sound.notfound": "§c音效不存在：%s",
+  "error.client.null": "§c客户端未初始化",
+  "error.player.null": "§c玩家不存在",
+
+  // 成功消息
+  "success.midi.loaded": "§a成功加载MIDI文件：%s",
+  "success.sounds.loaded": "§a加载了%d个音效",
+  "success.playback.started": "§a开始播放：%s",
+  "button.maestrocraft.downloadaudio.standard": "§2下载音频-标准",
+  "button.maestrocraft.downloadaudio.unified": "§2下载音频-短音效",
+  "button.maestrocraft.downloadaudio.enhanced": "§2下载音频-增强",
+
+  "button.maestrocraft.format.wav": "§3格式: WAV",
+  "button.maestrocraft.format.mp3": "§3格式: MP3",
+
+  "audio.generating": "§e正在生成%s音频文件...",
+  "audio.generating.progress": "§7处理音符: %d/%d",
+  "audio.completed": "§a%s音频文件生成完成！",
+  "audio.saved": "§7保存到: %s",
+  "audio.size": "§7文件大小: %.1f MB",
+  "audio.format.selected": "§a已选择%s格式",
+  "audio.converted": "§a已转换为MP3格式",
+  "audio.conversion.failed": "§eMP3转换失败，已保存为WAV格式",
+
+  "audio.type.standard": "标准版",
+  "audio.type.unified": "统一短音效版",
+  "audio.type.enhanced": "增强版",
+
+  "audio.format.wav": "WAV",
+  "audio.format.mp3": "MP3",
+
+  "audio.info.length": "§7音频长度: %.1f秒, 样本数: %d",
+  "audio.info.requires.ffmpeg": "§e提示：生成MP3需要安装ffmpeg",
+
+  "audio.error.noffmpeg": "§c未找到ffmpeg，请安装后重试",
+  "audio.error.generation": "§c生成音频文件失败",
+  "audio.error.preparation": "§c准备下载失败"
+}
